@@ -10,6 +10,7 @@
         <elasticsearch.version>2.3.1</elasticsearch.version>
         <jackson.version>2.7.3</jackson.version>
         <randomized.testrunner.version>2.3.3</randomized.testrunner.version>
+        <spark.version>2.2.0</spark.version>
     </properties>
 
     <modelVersion>4.0.0</modelVersion>
@@ -96,6 +97,13 @@
             <artifactId>jackson-module-afterburner</artifactId>
             <version>${jackson.version}</version>
         </dependency>
+        <dependency>
+			<groupId>org.apache.spark</groupId>
+			<artifactId>spark-core_2.10</artifactId>
+			<scope>provided</scope>
+			<version>${spark.version}</version>
+		</dependency>
+        
         <dependency>
             <groupId>org.apache.lucene</groupId>
             <artifactId>lucene-test-framework</artifactId>
