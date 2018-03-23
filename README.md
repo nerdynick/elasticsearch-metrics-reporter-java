@@ -1,8 +1,6 @@
 # Metrics Elasticsearch Reporter
 
-![Project unmaintained](https://img.shields.io/badge/project-unmaintained-red.svg)
-
-**This project is no longer maintained. If you want to maintain it, please fork and we will link to your new repository.**
+![Build Status](https://travis-ci.org/nerdynick/elasticsearch-metrics-reporter-java.svg?branch=master)
 
 ## Introduction
 
