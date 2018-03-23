@@ -1,7 +1,5 @@
 # Metrics Elasticsearch Reporter
 
-![Build Status](https://travis-ci.org/nerdynick/elasticsearch-metrics-reporter-java.svg?branch=master)
-
 ## Introduction
 
 This is a reporter for the excellent [Metrics library](http://metrics.dropwizard.io/), similar to the [Graphite](http://metrics.dropwizard.io/3.1.0/manual/graphite/) or [Ganglia](http://metrics.dropwizard.io/3.1.0/manual/ganglia/) reporters, except that it reports to an Elasticsearch server.
@@ -21,7 +19,7 @@ If you want to see this in action, go to the `samples/` directory and read the r
 
 ## Travis CI build status
 
-[![Build status](https://api.travis-ci.org/elastic/elasticsearch-metrics-reporter-java.svg?branch=master)](https://travis-ci.org/elastic/elasticsearch-metrics-reporter-java)
+[![Build status](https://travis-ci.org/nerdynick/elasticsearch-metrics-reporter-java.svg?branch=master)](https://travis-ci.org/nerdynick/elasticsearch-metrics-reporter-java)
 
 ## Installation
 
