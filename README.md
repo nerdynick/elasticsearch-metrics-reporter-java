@@ -191,9 +191,11 @@ This is how the serialized metrics looks like in elasticsearch
   "value" : 123
 }
 ```
+## Spark & Beam Integration
+
+An Apache Spark Sink implementation is provided. As part of this implementation support is added to grab Apache Beam metrics automatically within a Spark runner.
+
+### Enabling and Configuring Spark Sink
 
 
-## Next steps
-
-* Integration with Kibana would be awesome
 
